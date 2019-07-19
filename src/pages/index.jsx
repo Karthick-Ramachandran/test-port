@@ -17,7 +17,7 @@ import Projects from '../views/Projects'
 import About from '../views/About'
 import Contact from '../views/Contact'
 
-import avatar from '../images/avatar.jpg'
+import avatar from '../images/profile.jpg'
 
 const ProjectsWrapper = styled.div`
   ${tw`flex flex-wrap justify-between mt-8`};
@@ -63,73 +63,127 @@ const Index = () => (
     <Parallax pages={5}>
       <Hero offset={0}>
         <BigTitle>
-          Hello, <br /> I'm John Doe.
+          Hello, <br /> Karthick.
         </BigTitle>
-        <Subtitle>I'm creating noice web experiences for the next generation of consumer-facing companies.</Subtitle>
+        <Subtitle>I'm a Software Developer creating stunning web and mobile apps.</Subtitle>
       </Hero>
       <Projects offset={1}>
         <Title>Projects</Title>
         <ProjectsWrapper>
           <ProjectCard
-            title="Freiheit"
-            link="https://www.behance.net/gallery/58937147/Freiheit"
+            title="Workflow"
+            link="https://www.kissflow.com"
             bg="linear-gradient(to right, #D4145A 0%, #FBB03B 100%)"
           >
-            This project is my entry to Adobe's #ChallengeYourPerspective contest.
+            This project is my proud work of all time. It was used by almost 10000 companies and I'm happy to say that I'm part of it. Workflow app that helps big tech companies to improve their work through automation.
           </ProjectCard>
           <ProjectCard
-            title="Harry Potter"
-            link="https://www.behance.net/gallery/52915793/Harry-Potter"
-            bg="linear-gradient(to right, #662D8C 0%, #ED1E79 100%)"
-          >
-            I entered the DOCMA 2017 award with this Harry Potter inspired image.
-          </ProjectCard>
-          <ProjectCard
-            title="Tomb Raider"
-            link="https://www.behance.net/gallery/43907099/Tomb-Raider"
-            bg="linear-gradient(to right, #009245 0%, #FCEE21 100%)"
-          >
-            Recreation of a Tomb Raider Wallpaper (Fan Art)
-          </ProjectCard>
-          <ProjectCard
-            title="Eagle"
-            link="https://www.behance.net/gallery/38068151/Eagle"
+            title="AI for government"
+            link="freshvegges.pics:40020"
             bg="linear-gradient(to right, #D585FF 0%, #00FFEE 100%)"
           >
-            A fantasy image manipulation relocating the habitat of wild animals.
+            Freelance project for the government which is to help police and military to catch criminals.
           </ProjectCard>
+          <ProjectCard
+            title="Social App PWA "
+            link="https://pacific-lowlands-88149.herokuapp.com/"
+            bg="linear-gradient(to right, #662D8C 0%, #ED1E79 100%)"
+          >
+            Deep dive into PWA by building a social app for users with ExpressJs, MongoDb and firebase. It was the project built to submit my friend's final year project.
+          </ProjectCard> 
+          <ProjectCard
+            title="Turf App"
+            link="https://play.google.com/store/apps/details?id=com.turf.cricketscorer&hl=en_IN"
+            bg="linear-gradient(to right, #009245 0%, #FCEE21 100%)"
+          >
+            Andriod app built to automate local cricket matches and keep track of local young talents. You can create an account, form a team, schedule matches and
+            even more. Laravel and Andriod.
+          </ProjectCard>
+          <ProjectCard
+            title="Simple App to Book appointment to meet doctors with chat."
+            link="https://arcane-woodland-79561.herokuapp.com/"
+            bg="linear-gradient(to right, red 0%, #00FFEE 100%)"
+          >
+            App we built to experiment how booking was made in hospitals and we tried a basic version of booking a appointment.
+          </ProjectCard>
+          <ProjectCard
+            title="Ticket booking App"
+            link="https://vast-badlands-21317.herokuapp.com/"
+            bg="linear-gradient(to right, #009245 0%, #FCEE21 100%)"
+          >
+            This is to experiment ticket booking for bus, train and plane at saame place. Built for final year students.
+          </ProjectCard>
+          <ProjectCard
+            title="Forum to talk about React and Laravel"
+            link="https://github.com/Karthick-Ramachandran/ReactLara"
+            bg="linear-gradient(to right, #D585FF 0%, #00FFEE 100%)"
+          >
+               React and Laravel discussion forum that helps to connect react and laravel devs at same place and show the power of those two technologies.
+          </ProjectCard>
+          <ProjectCard
+            title="Jot down your thoughts and ideas"
+            link="https://still-tundra-34127.herokuapp.com/"
+            bg="linear-gradient(to right, #009245 0%, #FCEE21 100%)"
+          >
+             Personal app to put my ideas, tricks and todo list. If you need one, Just sign up.
+          </ProjectCard>
+          <ProjectCard
+            title="Weird Voice App"
+            link="https://voicereg.surge.sh"
+            bg="linear-gradient(to right, #D585FF 0%, red 100%)"
+          >
+            Web App AI which listens to our voice and reply accordingly. Built with pure JavaScript.
+          </ProjectCard>
+          <ProjectCard
+            title="Translate Chat"
+            link="https://still-atoll-46662.herokuapp.com/"
+            bg="linear-gradient(to right, #D585FF 0%, #00FFEE 100%)"
+          >
+            Mini project which is called Translation App. Writing my own api to translate the texts we type using ExpressJs and Node. Think about multilingual chat app.
+          </ProjectCard>
+          <ProjectCard
+            title="Hacker news data"
+            link="https://brave-stallman-a2643a.netlify.com/"
+            bg="linear-gradient(to right, #009245 0%, #FCEE21 100%)"
+          >
+             App to experiment power of nextJs and React by pulling all the data from hackernews.
+          </ProjectCard>
+          <ProjectCard
+            title="News App"
+            link="https://chennai-news.herokuapp.com/"
+            bg="linear-gradient(to right, #662D8C 0%, #ED1E79 100%)"
+          >
+            Simple two page app to pull out latest news from famous newspapers and show to people. It helps people to read all the news at same place with ease.
+          </ProjectCard> 
         </ProjectsWrapper>
       </Projects>
       <About offset={3}>
         <Title>About</Title>
         <AboutHero>
-          <Avatar src={avatar} alt="John Doe" />
+          <Avatar src={avatar} alt="Karthick" />
           <AboutSub>
-            The English language can not fully capture the depth and complexity of my thoughts. So I'm incorporating
-            Emoji into my speech to better express myself. Winky face.
+          Son, brother, millennial, and software developer. I want talk more about me and my thoughts but the words are not enough or may be I don't know how to express my
+          thoughts in <b>Interesting English way</b>.
           </AboutSub>
         </AboutHero>
         <AboutDesc>
-          You know the way you feel when you see a picture of two otters holding hands? That's how you're gonna feel
-          every day. My mother cried the day I was born because she knew she’d never be prettier than me. You should
-          make me your campaign manager. I was born for politics. I have great hair and I love lying. Captain? The kids
-          want to know where Paulie the Pigeon is. I told them he got sucked up into an airplane engine, is that all
-          right?
+          Working in one of the best product based companies out there in my country and building the product which is used by at least 10000 companies all over the world.
+          I don't feel like I have something to lead a happy life and I'm the one of very few who wants to make impact in the society. 
+          I bootstrap ideas, Build products. The one who speak and hear lot of ideas but rarely implement. Open to help people who wants to build the next generation.
         </AboutDesc>
       </About>
       <Contact offset={4}>
         <Inner>
           <Title>Get in touch</Title>
           <ContactText>
-            Say <a href="mailto:plizNoSp4m@domain.tld">Hi</a> or find me on other platforms:{' '}
-            <a href="https://dribbble.com/LekoArts">Dribbble</a> &{' '}
-            <a href="https://www.instagram.com/lekoarts.de/">Instagram</a>
+            Say <a href="mailto:karthiram165@gmail.com">Hi</a> or find me on other platforms:{' '}
+            <a href="https://www.twitter.com/Js_frontendguy">Twitter</a> &{' '}
+            <a href="https://www.github.com/Karthick-Ramachandran">Github</a>
+
           </ContactText>
         </Inner>
         <Footer>
-          &copy; 2019 by Gatsby Starter Portfolio Cara.{' '}
-          <a href="https://github.com/LekoArts/gatsby-starter-portfolio-cara">GitHub Repository</a>. Made by{' '}
-          <a href="https://www.lekoarts.de">LekoArts</a>.
+          &copy; 2019 by Karthick built with gatsby and cara
         </Footer>
       </Contact>
     </Parallax>
